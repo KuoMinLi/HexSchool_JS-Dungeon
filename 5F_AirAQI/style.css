@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    width: 1280px;
+    height: 890px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header {
+    height: 110px;
+    width: 1110px;
+    display: flex;
+    margin: 40px 85px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.title {
+    width: 350px;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h1 {
+    text-align: left;
+    font: normal normal bold 40px/60px  Noto Sans CJK TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+select {
+    height: 56px;
+    width: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #000000;
+    opacity: 1;
+    padding: 16px 20px;
+    text-align: left;
+    font: normal normal bold 16px/24px Noto Sans CJK TC;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+table {
+    width: 720px;
+}
+
+table, td {
+    border: 3px solid #000000;
+    border-collapse: collapse;
+}
+
+
+td {
+    width: 122px;
+    height: 50px;
+    text-align: center;
+    font: normal normal bold 16px/24px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 0px 15px;
+}
+
+
+#level1 {
+    background: #95F084 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+#level2 {
+    background: #FFE695 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+#level3 {
+    background: #FFAF6A 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+#level4 {
+    background: #FF5757 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+#level5 {
+    background: #9777FF 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+#level6 {
+    background: #AD1774 0% 0% no-repeat ;
+    opacity: 1;
+}
+
+.gap {
+    width: 1110px;
+    height: 54px;
+    margin: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 85px;
+}
+
+
+.border {
+    width: 786px;
+    height: 0px;
+    border: 3px dashed black;
+}
+
+.time {
+    width: 160px;
+    height: 22px;
+    text-align: right;
+    font: normal normal bold 16px/24px ;
+    
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main {
+    width: 1110px;
+    height: 535px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 85px;
+
+}
+
+aside {
+    width: 350px;
+    
+}
+
+section {
+    width: 730px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px 0px;
+    align-content: flex-start;
+}
+
+
+.information, .information_Click {
+    height: 97px;
+    width: 350px;
+    display: flex;
+}
+
+
+
+
+.location, .location_Click  {
+    width: 190px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font: normal normal bold 36px/54px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #000000;
+    opacity: 1;
+}
+
+.aqi_num, .aqi_num_Click {
+    width: 160px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font: normal normal bold 48px/72px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    background: #FF5757 0% 0% no-repeat padding-box;
+    border: 3px solid #000000;
+    opacity: 1;
+}
+
+
+.container {
+    width: 344px;
+    height: 378px;
+    padding: 30px 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #000000;
+    border-top: 0px solid black;
+    opacity: 1;
+}
+
+.compound {
+    margin: 0px 30px;
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 290px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compound_name {
+    display: flex;
+    height: 36px;
+    width: 225px;
+    align-items: baseline;
+}
+
+
+.compound_Chinese{
+    text-align: left;
+    font: normal normal bold 24px/36px Noto Sans CJK TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.compound_Eglish {
+    text-align: left;
+    font: normal normal normal 16px/24px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.compound_num {
+    width: 48px;
+    height: 33px;
+    text-align: right;
+    font: normal normal bold 24px/36px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+li:nth-last-child(1) {
+    border-bottom: 0px solid black;
+}
+
+footer {
+    height: 34px;
+    padding:0px -85px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 40px;
+    padding: 0px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.source {
+    width: 208px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 16px/24px 'Anton', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sign {
+    width: 360px;
+    height: 22px;
+    text-align: right;
+    font: normal normal normal 16px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #F0F0F0;
+    opacity: 1;
+}
