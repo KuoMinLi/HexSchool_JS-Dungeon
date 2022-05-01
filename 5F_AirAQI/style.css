@@ -9,7 +9,7 @@
 
 body {
     width: 1280px;
-    height: 890px;
+    /* height: 890px; */
     background: #F0F0F0 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -31,7 +31,7 @@ header {
     justify-content: space-between;
 }
 
-.h1 {
+h1 {
     text-align: left;
     font: normal normal bold 40px/60px  Noto Sans CJK TC;
     letter-spacing: 0px;
@@ -112,21 +112,33 @@ td {
     align-items: center;
     justify-content: space-between;
     margin: 0px 85px;
+
+}
+
+.countytitle {
+    display: block;
+    width: 120px; 
+    height: 54px;
+    text-align: left;
+    font: normal normal bold 36px/54px Noto Sans CJK TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
 }
 
 
 .border {
-    width: 786px;
+    width: 766px;
     height: 0px;
     border: 3px dashed black;
 }
 
 .time {
-    width: 160px;
+    width: 180px;
     height: 22px;
     text-align: right;
     font: normal normal bold 16px/24px ;
-    
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -134,7 +146,7 @@ td {
 
 main {
     width: 1110px;
-    height: 535px;
+    /* height: 535px; */
     display: flex;
     justify-content: space-between;
     margin: 32px 85px;
@@ -148,7 +160,6 @@ aside {
 
 section {
     width: 730px;
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -157,16 +168,20 @@ section {
 }
 
 
-.information, .information_Click {
+.information {
     height: 97px;
     width: 350px;
     display: flex;
 }
 
 
+.active {
+    box-shadow: 5px 5px 10px 5px gray;
+}
 
 
-.location, .location_Click  {
+
+.location {
     width: 190px;
     height: 97px;
     display: flex;
@@ -182,7 +197,7 @@ section {
     opacity: 1;
 }
 
-.aqi_num, .aqi_num_Click {
+.aqi_num {
     width: 160px;
     height: 97px;
     display: flex;
