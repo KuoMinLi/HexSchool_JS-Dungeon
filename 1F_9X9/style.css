@@ -2,22 +2,23 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif; 
+    box-sizing: border-box;
 }
 
 .wrap {
+    margin: 0 auto;
     width: 1280px;
     height: 1372px;
     background-color: #F0F0F0;
-   
 }
 
 .container {
-    height: 1336px;
-    padding-top: 70px;
+    padding: 80px 85px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 40px 15px;
 }
 
 .footer {
@@ -30,17 +31,14 @@
 
 .footer-text {
     text-align: left;
-    font: normal normal normal 16px/24px Helvetica Neue;
+    font-size: 16px;
     color: #F0F0F0;
-    opacity: 1;
     padding: 0px 85px;
 }
 
 .title {
-
     width: 350px;
     height: 366px;
-    margin: 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,10 +55,8 @@
     width: 14px;
     height: 28px;
     text-align: left;
-    font: normal normal normal 24px/24px Helvetica Neue;
-    letter-spacing: 0px;
+    font-size: 24px;
     color: #2EB738;
-    opacity: 1;
 }
 
 .label-up-mid, .label-down-mid {
@@ -68,72 +64,60 @@
     height: 0;
     margin: 14px 20px;
     border: 1px solid #2EB738;
-    opacity: 1;
 }
-
-.title-Name {
- text-align: center;
-}
-
 
 .title-Name-Chinese {
     font-size: 54px;
     text-align: center;
-    font: normal normal medium 56px/84px PingFang TC;
-    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 56px;
     color: #2EB738;
-    opacity: 1;
 }
 
 .title-Name-English {
     text-align: center;
-    font: normal normal normal 24px/36px Helvetica Neue;
-    letter-spacing: 0px;
+    font-size: 24px;
     color: #2EB738;
-    opacity: 1;
 }
 
 .cal {
     width: 350px;
     height: 366px;
-    margin: 10px 15px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF ;
     box-shadow: 0px 3px 10px #D8D8D8;
     border-radius: 100px 0px 30px 0px;
-    opacity: 1;
 }  
 
 .cal-container {
-    width: 296px;
-    height: 280px;
-    margin: 40px;
+    width: 270px;
+    height: 238px;
+    margin: 64px 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around
+    gap: 8px 32px;
 }
 
 
 .cal-title {
-    height: 153px;
+    height: 100px;
     width: 71px;
-    text-align: left;
-    font: normal normal bold 128px/128px Helvetica Neue;
-    letter-spacing: 0px;
+    vertical-align: text-top;
+    font-weight: bold;
+    font-size: 128px;
+    line-height: 100px;
     color: #2EB738;
     text-shadow: 4px 3px 0px #F0F0F0;
-    opacity: 1;
-    margin: 0px 0px 0px 20px; 
+    margin-left: 20px;
+    margin-bottom: 15px; 
 
 }
 
-.cal-1 {
+.cal-content {
     height: 33px;
-    width: 118px;
+    width: 119px;
     text-align:left;
-    font: normal normal normal 24px/24px Helvetica Neue;
-    letter-spacing: 0px;
+    font-size: 24px;
     color: #2EB738;
-    opacity: 1;
-    margin: 4px 0px;
 }
+

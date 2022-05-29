@@ -23,7 +23,7 @@ const data = [];
 for(let round=2; round<10; round++){
   content= ``
   for (let item=1; item<10; item++){
-    content+= `<div class="cal-1">${round} × ${item} ＝ ${(item*round)}</div>`; 
+    content+= `<div class="cal-content">${round} × ${item} ＝ ${(item*round)}</div>`; 
   }
   str+=`<div class="cal" >
           <div class="cal-container">
